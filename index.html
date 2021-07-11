@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <header>
+        <div class="container">
+        <img src="logo_web.jpg" alt= "logo" class="logo" style="width: 65px">
+        <nav>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="Long term effects.html">Long term effects.</a></li>
+            <li><a href="what can you do to help.html">What you can do to help.</a></li>
+            <li><a href="abouttheauthor.html".html">About the author. </a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <h1 style="font-size: 60px;"><center>Human consumption crisis</center></h1>
+    <h2><center>Consumption is an issue that is way undermined in our society as not everyone realizes that even they are the culprate.</center></h2>
+    <center><script>
+        var i = 0;//start point
+        var images = [];
+        var time = 5000;
+    
+        //Image list 
+        images[0] = 'https://web-assets.bcg.com/07/bc/aca6e4776f129c97f79f103c7bed/circular-solution-plastic-2880x1620-tcm9-223909.jpg';
+        images[1] = 'https://assets.theoceancleanup.com/app/uploads/2019/05/mpw_header_export1.jpg';
+        images[2] = 'https://wastedtalentdotme.files.wordpress.com/2014/03/greatrecovery_ewaste_pile.jpg';
+    
+        //change image
+        function changeImg(){
+            document.slide.src = images[i];
+    
+            if(i < images.length-1){
+                i++
+    
+            } else {
+                i = 0;
+            }
+            setTimeout("changeImg()", time);
+        }
+    
+        window.onload = changeImg;
+        </script>
+    
+        <img name="slide" width="1000" ></center>
+
+        
+        
+
+        
+        
+
+</head>
+<body>
+    <center><div> The consumption crisis is a very serious issue that can be interpreted in many many ways. one of the first thoughts
+      many people have when they hear about consumption is food. It is often interpreted as a waste of food and edidle material. When 
+      this first comes to mind they are not incorrect at all. Food waste is one of the largest present consumption issues. Along with
+       this a huge part of consumption is in product waste, such as electronics, clothing, etc. Unfortunatley in our modern world, when an 
+       issue appears with a certain product it seems that for many the first idea is when and where they can buy a new one. The product
+        is then disposed of and therefore put to waste. According to BBC news" While the world produces 2.1bn tonnes of this rubbish every 
+        year, only 16% is recycled while 46% is disposed of unsustainably.In the analysis, China and India make up over 36% of the global
+         population and account for 27% of the waste. US citizens produce 773kg per head of population, roughly 12% of the global total. 
+         Their output is three times that of their Chinese counterparts and seven times more than people living in Ethiopia.</div></center>
+
+        <center><img src="https://assets.macerichepicenter.com/FileManager/Property/Events/LaCumbrePlaza/EventPage_Ewaste.jpg" alt="error loading images..." width="900"></center>
+        </body>
+
+</html>
+
+
+
+<style>
+
+    @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+    
+    
+    body {
+        margin: 0;
+        background: rgb(46, 80, 82);
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 800; }
+    
+    
+    
+        .container {
+        width: 80%;             
+        margin: 0 auto; }
+    
+    
+        header {
+      background: #05f140; }
+    
+    
+    
+      header::after {     
+      content: '';
+      display: table;
+      clear: both;
+    }                 
+    
+    
+    .logo {
+      float: left;
+      padding: 10px 0; }
+    
+    
+    
+      nav {
+      float: right; }
+    
+    
+      nav ul {                      
+      margin: 0;
+      padding: 0;
+      list-style: none; }
+    
+    nav li {  
+      display: inline-block;
+      margin-left: 70px;
+      padding-top: 23px;
+      position: relative; }
+    
+    
+    
+    nav a {                              
+      color: #444;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 14px; }
+    
+    nav a:hover {           
+      color: #000;  
+    }
+    
+    
+    nav a::before {
+      content: '';
+      display: block;
+      height: 5px;
+      background-color: #444;
+    
+      position: absolute;
+      top: 0;
+      width: 0%;
+    
+      transition: all ease-in-out 250ms;
+    }
+    
+    nav a:hover::before {
+      width: 100%;}  
+
+div {
+  width: 1200px;
+  font-size: 25px;
+}
+      
+
+      </style>
+
+
+
+
+
+  
+
+
